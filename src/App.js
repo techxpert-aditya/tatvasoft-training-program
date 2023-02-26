@@ -1,13 +1,11 @@
 import './App.css';
+import Home from './pages/Home';
 
 function App() {
   return (
-    <>
-    <center>
-      <h1>hello there</h1>
-      <p>this is my first react app</p>
-    </center>
-    </>
+    <div>
+      <Home/>
+    </div>
   );
 }
 
