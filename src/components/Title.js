@@ -1,11 +1,11 @@
 import React from 'react'
 
-export default function title() {
+export default function title(props) {
   return (
     <div>
     <center>
-      <h1>hello there</h1>
-      <p>this is my first react app</p>
+      <h1>{props.titleText}</h1>
+      <p>{props.description}</p>
     </center>
     </div>
   )
